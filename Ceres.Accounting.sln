@@ -17,11 +17,41 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration Files", "Conf
 		nuget.config = nuget.config
 	EndProjectSection
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ceres.Accounting.Specs", "specs\Ceres.Accounting.Specs.csproj", "{F28126E9-2A26-4AC0-AEEC-3A7A0EFD62B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FF1C45E7-6A02-405C-9639-DCE9EED24FDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ceres.Accounting", "src\Ceres.Accounting\Ceres.Accounting.csproj", "{3558C395-03EC-4E32-ACBB-FBC76E66F9A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ceres.Core", "src\Ceres.Core\Ceres.Core.csproj", "{525061B5-AAE6-4F15-8FB4-3D009D0628E5}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F28126E9-2A26-4AC0-AEEC-3A7A0EFD62B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F28126E9-2A26-4AC0-AEEC-3A7A0EFD62B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F28126E9-2A26-4AC0-AEEC-3A7A0EFD62B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F28126E9-2A26-4AC0-AEEC-3A7A0EFD62B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3558C395-03EC-4E32-ACBB-FBC76E66F9A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3558C395-03EC-4E32-ACBB-FBC76E66F9A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3558C395-03EC-4E32-ACBB-FBC76E66F9A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3558C395-03EC-4E32-ACBB-FBC76E66F9A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{525061B5-AAE6-4F15-8FB4-3D009D0628E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{525061B5-AAE6-4F15-8FB4-3D009D0628E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{525061B5-AAE6-4F15-8FB4-3D009D0628E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{525061B5-AAE6-4F15-8FB4-3D009D0628E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D7689A17-96C4-48DA-824D-9C041BBB977F}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3558C395-03EC-4E32-ACBB-FBC76E66F9A4} = {FF1C45E7-6A02-405C-9639-DCE9EED24FDB}
+		{525061B5-AAE6-4F15-8FB4-3D009D0628E5} = {FF1C45E7-6A02-405C-9639-DCE9EED24FDB}
 	EndGlobalSection
 EndGlobal
